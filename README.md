@@ -1,2 +1,2 @@
 # DLS-2025
-2025 IEEE MASS Workshop DLS Official Website
+This is the homepage of Workshop DLS in IEEE MASS 2025.

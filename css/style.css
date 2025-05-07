@@ -98,18 +98,20 @@ ul li i {
     }
 }
 .global-page-header {
-    background: #003152;
-    color: white;
-    padding: 60px 0;
+    background: linear-gradient(to right, #ffffff, #d9e6ff); /* 柔和渐变背景 */
+    padding: 80px 0;
+    color: #003152; /* 深蓝色文字，与背景形成对比 */
+    position: relative;
 }
 
 .global-page-header h2 {
     font-size: 2.5em;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .global-page-header p {
     font-size: 1.2em;
-    margin-top: 10px;
+    color: #00203f; /* 更深一点的副标题颜色 */
 }
 

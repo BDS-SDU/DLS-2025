@@ -50,8 +50,10 @@ section h3 {
     margin-bottom: 1.5rem;
 }
 .topics-list li {
-    padding: 3px 15px;
-    border-radius: 3px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    margin: 2px 0; /* 缩小上下外边距 */
+    line-height: 1.2; /* 调整行高，使文字更紧凑 */
 }
 
 .topics-list li:hover {

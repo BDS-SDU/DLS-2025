@@ -4,6 +4,7 @@ body {
     color: #333;
     line-height: 1.6;
     background-color: #f9f9f9;
+    font-size: 16px;
 }
 
 h2 {
@@ -115,7 +116,7 @@ ul li i {
     color: #00203f; /* 更深一点的副标题颜色 */
 }
 #description {
-    background-color: #f1f7ff;
+    background-color: #f9f9f9;
     padding: 60px 0;
 }
 
@@ -134,9 +135,10 @@ ul li i {
     vertical-align: middle;
 }
 .description-text {
-    font-size: 1rem; /* 适中的字号 */
+    font-size: 1.1rem; /* 适中的字号 */
     line-height: 1.7;
-    color: #444;
+    color: #333;
+    margin-bottom: 1.5rem;
 }
 
 

@@ -136,10 +136,10 @@ section h3 {
     z-index: -1;
 }
 
-#organizers .block li {
+#committees .block li {
     margin-bottom: 0.4rem;
 }
-#call-for-papers .block li {
+#topics-of-interest .block li {
     margin-bottom: 0.6rem;
 }
 /* Navbar Style */

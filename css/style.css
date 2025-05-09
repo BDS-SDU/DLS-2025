@@ -35,8 +35,11 @@ section h3 {
     margin-top: 1.2rem;
     margin-bottom: 0.8rem;
 }
+
 .block p,
 .block li {
+    text-align: justify;
+    text-justify: inter-word;
     font-size: 1.1rem;
     line-height: 1.7;
     margin-bottom: 1.5rem;

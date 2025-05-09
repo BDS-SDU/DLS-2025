@@ -19,17 +19,14 @@ section[id] .container {
     margin: 0 auto;
 }
 .block {
-    background-color: white;
     padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 section h2 {
     font-size: 1.4rem;
-    color: #003152;
+    color: #fff;
     font-weight: bold;
     padding-bottom: 10px;
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid rgba(255, 250, 255, 0.2);
     margin-bottom: 0.8rem;
 }
 section h3 {
@@ -102,9 +99,9 @@ section h3 {
     }
 }
 .global-page-header {
-    background: linear-gradient(to right, #003152, #004a7c); /* 深蓝渐变 */
+    background: linear-gradient(to bottom, #003152, #004a7c); /* 深蓝渐变 */
     padding: 80px 0;
-    color: white;
+    color: #fff;
     position: relative;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
@@ -116,9 +113,20 @@ section h3 {
 }
 .global-page-header p {
     font-size: 1.2em;
-    color: #e0e0e0;
+    color:  #d9e6ff;
 }
-#people .block li {
+.global-page-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+    z-index: -1;
+}
+
+#organizers .block li {
     margin-bottom: 0.4rem;
 }
 #call-for-papers .block li {

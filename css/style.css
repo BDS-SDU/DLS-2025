@@ -94,6 +94,9 @@ section h3 {
 }
 
 @media (max-width: 768px) {
+    .global-page-header {
+        padding: 30px 0;
+    }
     .global-page-header h2 {
         font-size: 1.8em;
     }

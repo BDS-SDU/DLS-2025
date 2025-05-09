@@ -23,7 +23,7 @@ section[id] .container {
 }
 section h2 {
     font-size: 1.4rem;
-    color: #fff;
+    color: #003152;
     font-weight: bold;
     padding-bottom: 10px;
     border-bottom: 2px solid rgba(255, 250, 255, 0.2);
@@ -96,6 +96,9 @@ section h3 {
 
     section h2 {
         font-size: 1.4em;
+    }
+    .block p{
+        text-align: left;
     }
 }
 .global-page-header {

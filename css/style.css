@@ -50,8 +50,8 @@ section h3 {
     margin-bottom: 1.5rem;
 }
 .topics-list li {
-    padding: 5px 15px;
-    border-radius: 4px;
+    padding: 3px 15px;
+    border-radius: 3px;
 }
 
 .topics-list li:hover {
@@ -135,12 +135,6 @@ section h3 {
     z-index: -1;
 }
 
-#committees .block li {
-    margin-bottom: 0.4rem;
-}
-#topics-of-interest .block li {
-    margin-bottom: 0.6rem;
-}
 /* Navbar Style */
 .navbar {
     background-color: #003152 !important;

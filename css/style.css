@@ -150,7 +150,9 @@ section h3 {
 }
 
 .navbar .nav-link {
+    font-size: 1rem;
     color: white !important;
+    padding: 10px 16px;
     transition: color 0.3s ease;
 }
 
@@ -159,6 +161,7 @@ section h3 {
 }
 
 .navbar-brand {
+    font-size: 1rem;
     font-weight: bold;
     color: #fff !important;
 }

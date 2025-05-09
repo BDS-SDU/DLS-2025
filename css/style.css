@@ -114,11 +114,35 @@ section h3 {
     font-weight: bold;
     margin-bottom: 15px;
 }
+.global-page-header p {
+    font-size: 1.2em;
+    color: #e0e0e0;
+}
 #people .block li {
     margin-bottom: 0.4rem;
 }
 #call-for-papers .block li {
     margin-bottom: 0.6rem;
+}
+/* Navbar Style */
+.navbar {
+    background-color: #003152 !important;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.navbar .nav-link {
+    color: white !important;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #d9e6ff !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff !important;
 }
 
 

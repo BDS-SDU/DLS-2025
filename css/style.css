@@ -109,7 +109,7 @@ section h3 {
     }
 }
 .global-page-header {
-    background: linear-gradient(to bottom, #003152, #004a7c); /* 深蓝渐变 */
+    background: url('../images/header.jpg') center center/cover no-repeat;
     padding: 80px 0;
     color: #fff;
 }

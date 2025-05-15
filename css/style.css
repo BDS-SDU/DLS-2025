@@ -1,6 +1,6 @@
 /* Base Styles */
 body {
-    font-family: 'Open Sans',  'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
     color: #333;
     line-height: 1.6;
     background-color: #f9f9f9;
@@ -22,7 +22,7 @@ section[id] .container {
     padding: 30px;
 }
 section h2 {
-    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    font-family: font-family: Georgia, 'Times New Roman', serif;
     font-size: 1.4rem;
     color: #003152;
     font-weight: bold;
@@ -31,7 +31,7 @@ section h2 {
     margin-bottom: 0.8rem;
 }
 section h3 {
-    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    font-family: font-family: Georgia, 'Times New Roman', serif;
     font-size: 1.2rem;
     color: #003152;
     margin-top: 1.2rem;
@@ -40,6 +40,7 @@ section h3 {
 
 .block p,
 .block li {
+    font-family: font-family: Georgia, 'Times New Roman', serif;
     text-align: justify;
     text-justify: inter-word;
     font-size: 1.1rem;
@@ -111,8 +112,8 @@ section h3 {
     }
 }
 .global-page-header {
-    background: url('../images/header.jpg') center 30%/cover no-repeat;
-    padding: 100px 0;
+    background: url('../images/header.jpg') center center/cover no-repeat;
+    padding: 120px 0;
     color: #fff;
 }
 .global-page-header .container {
@@ -137,7 +138,7 @@ section h3 {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(2px);
-    z-index: -1;
+    z-index: 1;
 }
 
 /* Navbar Style */

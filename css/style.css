@@ -22,7 +22,7 @@ section[id] .container {
     padding: 30px;
 }
 section h2 {
-    font-family: font-family: Georgia, 'Times New Roman', serif;
+    font-family: font-family:'Open Sans', serif;
     font-size: 1.4rem;
     color: #003152;
     font-weight: bold;
@@ -31,7 +31,7 @@ section h2 {
     margin-bottom: 0.8rem;
 }
 section h3 {
-    font-family: font-family: Georgia, 'Times New Roman', serif;
+    font-family: font-family: 'Helvetica Neue', serif;
     font-size: 1.2rem;
     color: #003152;
     margin-top: 1.2rem;
@@ -40,7 +40,7 @@ section h3 {
 
 .block p,
 .block li {
-    font-family: font-family: Georgia, 'Times New Roman', serif;
+    font-family: font-family: 'Latin Modern', Georgia, 'Times New Roman', serif;
     text-align: justify;
     text-justify: inter-word;
     font-size: 1.1rem;
